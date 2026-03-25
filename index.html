@@ -915,6 +915,19 @@
     <div id="bb-no-manager" class="empty-state">Select a manager above to view bounce back opportunities.</div>
     <div id="bb-dashboard" style="display:none">
 
+      <!-- Field toggle -->
+      <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1.5rem;padding:0.85rem 1rem;background:var(--card-bg);border-radius:10px;border:1px solid var(--border);">
+        <label style="position:relative;width:40px;height:22px;flex-shrink:0;cursor:pointer;">
+          <input type="checkbox" id="bb-field-toggle" checked onchange="renderBounceBack(currentManager)" style="opacity:0;width:0;height:0;position:absolute;">
+          <span id="bb-toggle-track" style="position:absolute;inset:0;background:var(--green);border-radius:11px;transition:background 0.2s;"></span>
+          <span id="bb-toggle-thumb" style="position:absolute;top:3px;left:3px;width:16px;height:16px;background:#fff;border-radius:50%;transition:transform 0.2s;transform:translateX(18px);"></span>
+        </label>
+        <div>
+          <div style="font-size:0.85rem;font-weight:600;color:var(--ink);">In the field this week</div>
+          <div style="font-size:0.72rem;color:var(--muted);" id="bb-field-count">Filtering to <strong id="bb-field-num">134</strong> players in this week's field</div>
+        </div>
+      </div>
+
       <!-- Section 1 -->
       <div class="one-col">
         <div class="card fade-in">
@@ -1041,6 +1054,142 @@ const INLINE_DATA = {
       "date": "Mar 19-22"
     }
   },
+  "upcoming_field": [
+    "Min Woo Lee",
+    "Chris Gotterup",
+    "Sam Burns",
+    "Brooks Koepka",
+    "Jake Knapp",
+    "Rickie Fowler",
+    "Kurt Kitayama",
+    "Nicolai Hojgaard",
+    "Marco Penge",
+    "Adam Scott",
+    "Harris English",
+    "Ben Griffin",
+    "Shane Lowry",
+    "Michael Thorbjornsen",
+    "Harry Hall",
+    "Ryan Gerard",
+    "Wyndham Clark",
+    "Keith Mitchell",
+    "Rasmus Hojgaard",
+    "Jason Day",
+    "Pierceson Coody",
+    "Sam Stevens",
+    "Taylor Pendrith",
+    "Alex Smalley",
+    "Stephan Jaeger",
+    "Aaron Rai",
+    "Will Zalatoris",
+    "Sahith Theegala",
+    "Tony Finau",
+    "Patrick Rodgers",
+    "Sungjae Im",
+    "Davis Thompson",
+    "Ricky Castillo",
+    "Max Greyserman",
+    "Jordan L. Smith",
+    "Ryan Fox",
+    "Gary Woodland",
+    "Kristoffer Reitan",
+    "Rico Hoey",
+    "Hao-Tong Li",
+    "Nicolas Echavarria",
+    "J.T. Poston",
+    "Thorbjorn Olesen",
+    "Aldrich Potgieter",
+    "Michael Brennan",
+    "Sudarshan Yellamaraju",
+    "Doug Ghim",
+    "Christiaan Bezuidenhout",
+    "Adrien Dumont De Chassart",
+    "Mackenzie Hughes",
+    "Tom Kim",
+    "Matti Schmid",
+    "Seamus Power",
+    "Lee Hodges",
+    "Rasmus Neergaard-Petersen",
+    "Eric Cole",
+    "Mac Meissner",
+    "Denny McCarthy",
+    "John Parry",
+    "Kris Ventura",
+    "Matt Wallace",
+    "Max McGreevy",
+    "William Mouw",
+    "Seonghyeon Kim",
+    "Kevin Roy",
+    "Jesper Svensson",
+    "Billy Horschel",
+    "Chris Kirk",
+    "Emiliano Grillo",
+    "Chandler Blanchet",
+    "David Lipsky",
+    "Kevin Yu",
+    "Chad Ramey",
+    "Daniel Brown",
+    "David Ford",
+    "Vince Whaley",
+    "John Keefer",
+    "Austin Eckroat",
+    "Andrew Putnam",
+    "Alejandro Tosti",
+    "Steven Fisk",
+    "Garrick Higgo",
+    "Zecheng Dou",
+    "Matthieu Pavon",
+    "A.J. Ewart",
+    "Dylan Wu",
+    "Beau Hossler",
+    "Lucas Glover",
+    "Tom Hoge",
+    "Zachary Bauchou",
+    "Luke Clanton",
+    "Isaiah Salinda",
+    "Takumi Kanaya",
+    "Matt Kuchar",
+    "Jhonattan Vegas",
+    "Adrien Saddier",
+    "Gordon Sargent",
+    "Mark Hubbard",
+    "Chandler Phillips",
+    "Davis Riley",
+    "Adam Svensson",
+    "Sam Ryder",
+    "Patrick Fishburn",
+    "Christo Lamprecht",
+    "Mason Howell",
+    "Neal Shipley",
+    "John VanDerLaan",
+    "Danny Walker",
+    "Hank Lebioda",
+    "Jimmy Stanger",
+    "Jackson Suber",
+    "Karl Vilips",
+    "Bronson Burgoon",
+    "Cole Hammer",
+    "Trey Mullinax",
+    "Pontus Nyholm",
+    "Erik Van Rooyen",
+    "Kensei Hirata",
+    "Joe Highsmith",
+    "Davis Chatfield",
+    "Patton Kizzire",
+    "Nick Dunlap",
+    "Brian Campbell",
+    "Brice Garnett",
+    "Kyoung-Hoon Lee",
+    "Peter Malnati",
+    "Danny Willett",
+    "Adam Schenk",
+    "Jeffrey Kang",
+    "Casey Russell",
+    "Paul Waring",
+    "Aaron Wise",
+    "Charley Hoffman",
+    "Rafael Campos"
+  ],
   "standings": [
     {
       "manager": "JottieBucs",
@@ -22106,16 +22255,37 @@ function makePosTag(pos) {
 }
 
 function renderBounceBack(manager) {
-  var noMsg   = document.getElementById('bb-no-manager');
-  var dash    = document.getElementById('bb-dashboard');
+  var noMsg = document.getElementById('bb-no-manager');
+  var dash  = document.getElementById('bb-dashboard');
 
   if (!manager) { dash.style.display = 'none'; noMsg.style.display = 'block'; return; }
   noMsg.style.display = 'none';
   dash.style.display = 'block';
 
-  var weeks = DATA.manager_data[manager] || [];
+  // Field filter toggle
+  var toggle     = document.getElementById('bb-field-toggle');
+  var fieldOn    = toggle ? toggle.checked : true;
+  var field      = DATA.upcoming_field || [];
+  var fieldSet   = new Set(field.map(function(n) { return n.toLowerCase().trim(); }));
+  var fieldCount = document.getElementById('bb-field-num');
+  if (fieldCount) fieldCount.textContent = field.length;
 
-  // Build started players map: player -> Set of tournament keys
+  function inField(playerName) {
+    if (!fieldOn) return true;
+    return fieldSet.has(playerName.toLowerCase().trim());
+  }
+
+  // Update toggle visual state
+  var thumb = document.getElementById('bb-toggle-thumb');
+  var track = document.getElementById('bb-toggle-track');
+  if (thumb && track) {
+    thumb.style.transform = fieldOn ? 'translateX(18px)' : 'translateX(0)';
+    track.style.background = fieldOn ? 'var(--green)' : 'var(--border)';
+  }
+  var countEl = document.getElementById('bb-field-count');
+  if (countEl) countEl.style.display = fieldOn ? 'block' : 'none';
+
+  var weeks = DATA.manager_data[manager] || [];
   var startedPlayers = {};
   weeks.forEach(function(w) {
     w.players.forEach(function(p) {
@@ -22127,38 +22297,38 @@ function renderBounceBack(manager) {
   var s1 = [], s2 = [], s3 = [];
 
   Object.keys(startedPlayers).forEach(function(player) {
+    if (!inField(player)) return;
     var startedIn = startedPlayers[player];
     var season = getPlayerSeason(player);
     if (!season.length) return;
-
     var nums = season.map(function(r) { return posToNumBB(r.pos); });
     var avgFinish = nums.reduce(function(a,b){ return a+b; }, 0) / nums.length;
 
-    // ── Section 1: Bounce-Back ──
+    // Section 1
     var last = season[season.length - 1];
     var lastNum = posToNumBB(last.pos);
     if ((last.pos === 'MC' || last.pos === 'WD' || lastNum >= 60) && avgFinish < 40) {
-      s1.push({ player: player, lastPos: last.pos, lastTourney: last.name, avgFinish: Math.round(avgFinish * 10) / 10, events: season.length, starts: startedIn.size });
+      s1.push({ player: player, lastPos: last.pos, lastTourney: last.name, avgFinish: Math.round(avgFinish*10)/10, events: season.length, starts: startedIn.size });
     }
 
-    // ── Section 2: Hot Streak ──
+    // Section 2
     if (season.length >= 3) {
       var last2 = season.slice(-2);
       var last2nums = last2.map(function(r) { return posToNumBB(r.pos); });
       if (last2nums[0] < avgFinish && last2nums[1] < avgFinish) {
-        s2.push({ player: player, last2: last2, avgFinish: Math.round(avgFinish * 10) / 10, last2avg: Math.round((last2nums[0]+last2nums[1])/2 * 10)/10, events: season.length, starts: startedIn.size });
+        s2.push({ player: player, last2: last2, avgFinish: Math.round(avgFinish*10)/10, last2avg: Math.round((last2nums[0]+last2nums[1])/2*10)/10, events: season.length, starts: startedIn.size });
       }
     }
 
-    // ── Section 3: Forgotten Men ──
+    // Section 3
     if (season.length >= 2) {
       var last2e = season.slice(-2);
       var last2tKeys = new Set(last2e.map(function(r) { return r.t; }));
       var notStartedRecently = ![...last2tKeys].some(function(t) { return startedIn.has(t); });
       var last2nums2 = last2e.map(function(r) { return posToNumBB(r.pos); });
-      var last2avg2 = (last2nums2[0] + last2nums2[1]) / 2;
+      var last2avg2 = (last2nums2[0]+last2nums2[1])/2;
       if (notStartedRecently && last2avg2 < 30) {
-        s3.push({ player: player, last2: last2e, last2avg: Math.round(last2avg2 * 10)/10, avgFinish: Math.round(avgFinish * 10)/10, events: season.length, starts: startedIn.size });
+        s3.push({ player: player, last2: last2e, last2avg: Math.round(last2avg2*10)/10, avgFinish: Math.round(avgFinish*10)/10, events: season.length, starts: startedIn.size });
       }
     }
   });
@@ -22167,73 +22337,44 @@ function renderBounceBack(manager) {
   s2.sort(function(a,b) { return a.last2avg - b.last2avg; });
   s3.sort(function(a,b) { return a.last2avg - b.last2avg; });
 
-  // ── Render Section 1 ──
-  var el1 = document.getElementById('bb-section1');
-  if (!s1.length) { el1.innerHTML = '<div class="empty-state">No bounce-back candidates this week.</div>'; }
-  else {
-    var rows1 = s1.map(function(p) {
-      return '<tr>'
-        + '<td class="bb-player-name">' + p.player + '</td>'
-        + '<td>' + makePosTag(p.lastPos) + '</td>'
-        + '<td class="bb-hide-mobile">' + p.lastTourney + '</td>'
-        + '<td>' + p.avgFinish + '</td>'
-        + '<td>' + p.events + '</td>'
-        + '<td>' + p.starts + '</td>'
-        + '</tr>';
-    }).join('');
-    el1.innerHTML = '<div style="overflow-x:auto"><table class="bb-table"><thead><tr>'
+  function makeRows1(arr) {
+    if (!arr.length) return '<div class="empty-state">No candidates' + (fieldOn ? ' - not in field this week.' : '.') + '</div>';
+    return '<div style="overflow-x:auto"><table class="bb-table"><thead><tr>'
       + '<th>Player</th><th>Last Result</th><th class="bb-hide-mobile">Last Tournament</th><th>Avg Finish</th><th>Events</th><th>Starts</th>'
-      + '</tr></thead><tbody>' + rows1 + '</tbody></table></div>';
+      + '</tr></thead><tbody>'
+      + arr.map(function(p) {
+          return '<tr><td class="bb-player-name">' + p.player + '</td>'
+            + '<td>' + makePosTag(p.lastPos) + '</td>'
+            + '<td class="bb-hide-mobile">' + p.lastTourney + '</td>'
+            + '<td>' + p.avgFinish + '</td>'
+            + '<td>' + p.events + '</td>'
+            + '<td>' + p.starts + '</td></tr>';
+        }).join('')
+      + '</tbody></table></div>';
   }
 
-  // ── Render Section 2 ──
-  var el2 = document.getElementById('bb-section2');
-  if (!s2.length) { el2.innerHTML = '<div class="empty-state">No players on a hot streak.</div>'; }
-  else {
-    var rows2 = s2.map(function(p) {
-      var last2html = '<div class="bb-last2">'
-        + makePosTag(p.last2[0].pos)
-        + '<span class="bb-arrow">&#8594;</span>'
-        + makePosTag(p.last2[1].pos)
-        + '</div>';
-      return '<tr>'
-        + '<td class="bb-player-name">' + p.player + '</td>'
-        + '<td>' + last2html + '</td>'
-        + '<td>' + p.last2avg + '</td>'
-        + '<td>' + p.avgFinish + '</td>'
-        + '<td>' + p.events + '</td>'
-        + '<td>' + p.starts + '</td>'
-        + '</tr>';
-    }).join('');
-    el2.innerHTML = '<div style="overflow-x:auto"><table class="bb-table"><thead><tr>'
+  function makeRows23(arr, empty) {
+    if (!arr.length) return '<div class="empty-state">' + empty + (fieldOn ? ' - not in field this week.' : '.') + '</div>';
+    return '<div style="overflow-x:auto"><table class="bb-table"><thead><tr>'
       + '<th>Player</th><th>Last 2 Results</th><th>Last 2 Avg</th><th>Season Avg</th><th>Events</th><th>Starts</th>'
-      + '</tr></thead><tbody>' + rows2 + '</tbody></table></div>';
+      + '</tr></thead><tbody>'
+      + arr.map(function(p) {
+          var l2 = '<div class="bb-last2">' + makePosTag(p.last2[0].pos) + '<span class="bb-arrow">&#8594;</span>' + makePosTag(p.last2[1].pos) + '</div>';
+          return '<tr><td class="bb-player-name">' + p.player + '</td>'
+            + '<td>' + l2 + '</td>'
+            + '<td>' + p.last2avg + '</td>'
+            + '<td>' + p.avgFinish + '</td>'
+            + '<td>' + p.events + '</td>'
+            + '<td>' + p.starts + '</td></tr>';
+        }).join('')
+      + '</tbody></table></div>';
   }
 
-  // ── Render Section 3 ──
-  var el3 = document.getElementById('bb-section3');
-  if (!s3.length) { el3.innerHTML = '<div class="empty-state">No forgotten men found.</div>'; }
-  else {
-    var rows3 = s3.map(function(p) {
-      var last2html = '<div class="bb-last2">'
-        + makePosTag(p.last2[0].pos)
-        + '<span class="bb-arrow">&#8594;</span>'
-        + makePosTag(p.last2[1].pos)
-        + '</div>';
-      return '<tr>'
-        + '<td class="bb-player-name">' + p.player + '</td>'
-        + '<td>' + last2html + '</td>'
-        + '<td>' + p.last2avg + '</td>'
-        + '<td>' + p.avgFinish + '</td>'
-        + '<td>' + p.events + '</td>'
-        + '<td>' + p.starts + '</td>'
-        + '</tr>';
-    }).join('');
-    el3.innerHTML = '<div style="overflow-x:auto"><table class="bb-table"><thead><tr>'
-      + '<th>Player</th><th>Last 2 Results</th><th>Last 2 Avg</th><th>Season Avg</th><th>Events</th><th>Starts</th>'
-      + '</tr></thead><tbody>' + rows3 + '</tbody></table></div>';
-  }
+  document.getElementById('bb-section1').innerHTML = makeRows1(s1);
+  document.getElementById('bb-section2').innerHTML = makeRows23(s2, 'No players on a hot streak');
+  document.getElementById('bb-section3').innerHTML = makeRows23(s3, 'No forgotten men found');
 }
+
 
 // ── BOOT ──────────────────────────────────────────────────────────────────
 loadData();
