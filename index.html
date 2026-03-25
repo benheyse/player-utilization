@@ -240,8 +240,8 @@
     .week-tourney { font-size: 0.78rem; }
 
     /* Player usage table — hide Avg Finish on mobile, keep key cols */
-    .usage-header-row { grid-template-columns: minmax(100px, 1fr) 44px 70px 40px 40px; gap: 0.35rem; padding: 0 0.5rem 0.4rem; }
-    .usage-row        { grid-template-columns: minmax(100px, 1fr) 44px 70px 40px 40px; gap: 0.35rem; padding: 0.5rem 0.5rem; }
+    .usage-header-row { grid-template-columns: minmax(100px, 1fr) 44px 70px 44px; gap: 0.35rem; padding: 0 0.5rem 0.4rem; }
+    .usage-row        { grid-template-columns: minmax(100px, 1fr) 44px 70px 44px; gap: 0.35rem; padding: 0.5rem 0.5rem; }
     .usage-hide-mobile { display: none; }
     .usage-player-name { font-size: 0.78rem; }
     .usage-starts { font-size: 0.78rem; }
@@ -260,8 +260,8 @@
   }
 
   @media (max-width: 400px) {
-    .usage-header-row { grid-template-columns: minmax(80px, 1fr) 36px 60px 36px 36px; gap: 0.25rem; }
-    .usage-row        { grid-template-columns: minmax(80px, 1fr) 36px 60px 36px 36px; gap: 0.25rem; }
+    .usage-header-row { grid-template-columns: minmax(80px, 1fr) 36px 60px 40px; gap: 0.25rem; }
+    .usage-row        { grid-template-columns: minmax(80px, 1fr) 36px 60px 40px; gap: 0.25rem; }
   }
 
   /* ── CARD ── */
@@ -889,7 +889,7 @@
             <span class="usage-hide-mobile" style="text-align:right">Avg Finish</span>
             <span style="text-align:right">Avg FPTS</span>
             <span style="text-align:center">MC</span>
-            <span style="text-align:center">WD</span>
+            <span class="usage-hide-mobile" style="text-align:center">WD</span>
           </div>
           <div class="usage-list" id="usageList"></div>
         </div>
@@ -21943,7 +21943,7 @@ function renderUsage(weeks) {
       <div class="usage-stat usage-hide-mobile" style="text-align:right">${avgFinish}</div>
       <div class="usage-stat" style="text-align:right">${avgFpts}</div>
       <div style="text-align:center">${mcHtml}</div>
-      <div style="text-align:center">${wdHtml}</div>
+      <div class="usage-hide-mobile" style="text-align:center">${wdHtml}</div>
     `;
     row.addEventListener('click', () => togglePlayerDetail(name, row, container, startedSet));
     container.appendChild(row);
