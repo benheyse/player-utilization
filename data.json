@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-25",
+  "generated": "2026-03-30",
   "tournament_order": [
     "Sony Open",
     "Amex",
@@ -10,7 +10,8 @@
     "Cognizant",
     "API",
     "Players",
-    "Valspar"
+    "Valspar",
+    "Houston Open"
   ],
   "tournament_meta": {
     "Sony Open": {
@@ -62,297 +63,379 @@
       "name": "Valspar Championship",
       "winner": "Matt Fitzpatrick",
       "date": "Mar 19-22"
+    },
+    "Houston Open": {
+      "name": "Texas Childrens Houston Open",
+      "winner": "Gary Woodland",
+      "date": "Mar 26-29"
     }
   },
   "upcoming_field": [
-    "Min Woo Lee",
-    "Chris Gotterup",
-    "Sam Burns",
-    "Brooks Koepka",
-    "Jake Knapp",
-    "Rickie Fowler",
-    "Kurt Kitayama",
-    "Nicolai Hojgaard",
-    "Marco Penge",
-    "Adam Scott",
-    "Harris English",
-    "Ben Griffin",
-    "Shane Lowry",
+    "Tommy Fleetwood",
+    "Ludvig Aberg",
+    "Russell Henley",
+    "Si Woo Kim",
+    "Jordan Spieth",
+    "Hideki Matsuyama",
+    "Sepp Straka",
+    "Maverick McNealy",
     "Michael Thorbjornsen",
-    "Harry Hall",
-    "Ryan Gerard",
-    "Wyndham Clark",
+    "Rickie Fowler",
+    "Alex Noren",
+    "J.J. Spaun",
     "Keith Mitchell",
-    "Rasmus Hojgaard",
-    "Jason Day",
-    "Pierceson Coody",
-    "Sam Stevens",
-    "Taylor Pendrith",
-    "Alex Smalley",
-    "Stephan Jaeger",
-    "Aaron Rai",
-    "Will Zalatoris",
-    "Sahith Theegala",
-    "Tony Finau",
-    "Patrick Rodgers",
-    "Sungjae Im",
-    "Davis Thompson",
-    "Ricky Castillo",
-    "Max Greyserman",
-    "Jordan L. Smith",
-    "Ryan Fox",
-    "Gary Woodland",
-    "Kristoffer Reitan",
-    "Rico Hoey",
-    "Hao-Tong Li",
-    "Nicolas Echavarria",
-    "J.T. Poston",
-    "Thorbjorn Olesen",
-    "Aldrich Potgieter",
-    "Michael Brennan",
-    "Sudarshan Yellamaraju",
-    "Doug Ghim",
-    "Christiaan Bezuidenhout",
-    "Adrien Dumont De Chassart",
-    "Mackenzie Hughes",
-    "Tom Kim",
-    "Matti Schmid",
-    "Seamus Power",
-    "Lee Hodges",
-    "Rasmus Neergaard-Petersen",
-    "Eric Cole",
-    "Mac Meissner",
+    "Daniel Berger",
     "Denny McCarthy",
-    "John Parry",
-    "Kris Ventura",
-    "Matt Wallace",
+    "Sudarshan Yellamaraju",
+    "John Keefer",
+    "Nick Taylor",
+    "Gary Woodland",
+    "Brian Harman",
+    "Thorbjorn Olesen",
+    "Marco Penge",
+    "Jordan L. Smith",
+    "Ricky Castillo",
+    "Will Zalatoris",
+    "Alex Smalley",
+    "Davis Thompson",
+    "Rico Hoey",
+    "Patrick Rodgers",
+    "J.T. Poston",
+    "Stephan Jaeger",
+    "Tony Finau",
     "Max McGreevy",
+    "Christiaan Bezuidenhout",
+    "Mac Meissner",
+    "Matt Wallace",
+    "Andrew Novak",
+    "Chris Kirk",
+    "Tom Kim",
+    "John Parry",
+    "Hao-Tong Li",
+    "Kristoffer Reitan",
+    "Adrien Dumont De Chassart",
+    "Zecheng Dou",
+    "Mackenzie Hughes",
+    "Max Homa",
     "William Mouw",
+    "Doug Ghim",
+    "Chad Ramey",
+    "Matti Schmid",
+    "Eric Cole",
+    "Lee Hodges",
     "Seonghyeon Kim",
+    "Seamus Power",
     "Kevin Roy",
+    "Austin Eckroat",
+    "Beau Hossler",
+    "Matt Kuchar",
     "Jesper Svensson",
     "Billy Horschel",
-    "Chris Kirk",
-    "Emiliano Grillo",
-    "Chandler Blanchet",
-    "David Lipsky",
-    "Kevin Yu",
-    "Chad Ramey",
-    "Daniel Brown",
-    "David Ford",
-    "Vince Whaley",
-    "John Keefer",
-    "Austin Eckroat",
     "Andrew Putnam",
-    "Alejandro Tosti",
+    "Vince Whaley",
+    "Kevin Yu",
+    "Daniel Brown",
     "Steven Fisk",
-    "Garrick Higgo",
-    "Zecheng Dou",
-    "Matthieu Pavon",
     "A.J. Ewart",
-    "Dylan Wu",
-    "Beau Hossler",
-    "Lucas Glover",
-    "Tom Hoge",
-    "Zachary Bauchou",
-    "Luke Clanton",
-    "Isaiah Salinda",
-    "Takumi Kanaya",
-    "Matt Kuchar",
+    "Emiliano Grillo",
+    "David Ford",
+    "Sami Valimaki",
+    "Chandler Blanchet",
+    "Kris Ventura",
     "Jhonattan Vegas",
     "Adrien Saddier",
-    "Gordon Sargent",
-    "Mark Hubbard",
-    "Chandler Phillips",
-    "Davis Riley",
-    "Adam Svensson",
-    "Sam Ryder",
+    "Bronson Burgoon",
+    "David Lipsky",
+    "Webb Simpson",
+    "Lucas Glover",
+    "Garrick Higgo",
+    "Karl Vilips",
+    "Tom Hoge",
+    "Matthieu Pavon",
+    "Jimmy Stanger",
+    "Takumi Kanaya",
     "Patrick Fishburn",
-    "Christo Lamprecht",
-    "Mason Howell",
+    "Dylan Wu",
+    "Zachary Bauchou",
+    "Brandt Snedeker",
+    "Mark Hubbard",
+    "Hank Lebioda",
+    "Adam Svensson",
+    "Davis Chatfield",
+    "Pontus Nyholm",
     "Neal Shipley",
+    "Kevin Streelman",
     "John VanDerLaan",
     "Danny Walker",
-    "Hank Lebioda",
-    "Jimmy Stanger",
-    "Jackson Suber",
-    "Karl Vilips",
-    "Bronson Burgoon",
-    "Cole Hammer",
-    "Trey Mullinax",
-    "Pontus Nyholm",
-    "Erik Van Rooyen",
-    "Kensei Hirata",
     "Joe Highsmith",
-    "Davis Chatfield",
-    "Patton Kizzire",
-    "Nick Dunlap",
-    "Brian Campbell",
-    "Brice Garnett",
-    "Kyoung-Hoon Lee",
-    "Peter Malnati",
-    "Danny Willett",
-    "Adam Schenk",
-    "Jeffrey Kang",
-    "Casey Russell",
-    "Paul Waring",
-    "Aaron Wise",
+    "Luke Clanton",
+    "Erik Van Rooyen",
+    "Alejandro Tosti",
+    "Justin Lower",
     "Charley Hoffman",
-    "Rafael Campos"
+    "Christo Lamprecht",
+    "Chandler Phillips",
+    "Paul Waring",
+    "Adam Schenk",
+    "Kensei Hirata",
+    "Peter Malnati",
+    "Nick Dunlap",
+    "Patton Kizzire",
+    "Brice Garnett",
+    "Camilo Villegas",
+    "Jeffrey Kang",
+    "Brendon Todd",
+    "Kyoung-Hoon Lee",
+    "Rafael Campos",
+    "Gordon Sargent",
+    "Marcelo Rozo",
+    "Ryan Palmer",
+    "Jimmy Walker",
+    "Austin Wylie"
   ],
   "standings": [
     {
-      "manager": "JottieBucs",
-      "total_points": 4698.0,
-      "weeks_played": 10,
-      "avg_rank": 8.8,
-      "best_rank": 1,
-      "worst_rank": 28,
+      "manager": "tgroff24",
+      "total_points": 4970.0,
+      "weeks_played": 11,
+      "avg_rank": 12.5,
+      "best_rank": 2,
+      "worst_rank": 29,
       "season_rank": 1
     },
     {
       "manager": "taylorhiemenz",
-      "total_points": 4583.5,
-      "weeks_played": 10,
-      "avg_rank": 11.2,
+      "total_points": 4963.5,
+      "weeks_played": 11,
+      "avg_rank": 11.7,
       "best_rank": 1,
       "worst_rank": 28,
       "season_rank": 2
     },
     {
-      "manager": "jpevans05",
-      "total_points": 4495.5,
-      "weeks_played": 10,
-      "avg_rank": 12.5,
-      "best_rank": 2,
-      "worst_rank": 20,
+      "manager": "JottieBucs",
+      "total_points": 4954.5,
+      "weeks_played": 11,
+      "avg_rank": 10.4,
+      "best_rank": 1,
+      "worst_rank": 28,
       "season_rank": 3
     },
     {
-      "manager": "lcrose22",
-      "total_points": 4475.0,
-      "weeks_played": 10,
-      "avg_rank": 14.2,
-      "best_rank": 1,
-      "worst_rank": 31,
+      "manager": "heysebc",
+      "total_points": 4929.5,
+      "weeks_played": 11,
+      "avg_rank": 11.5,
+      "best_rank": 2,
+      "worst_rank": 26,
       "season_rank": 4
     },
     {
-      "manager": "tgroff24",
-      "total_points": 4428.5,
-      "weeks_played": 10,
-      "avg_rank": 13.5,
-      "best_rank": 3,
-      "worst_rank": 29,
+      "manager": "jpevans05",
+      "total_points": 4919.5,
+      "weeks_played": 11,
+      "avg_rank": 12.5,
+      "best_rank": 2,
+      "worst_rank": 20,
       "season_rank": 5
     },
     {
-      "manager": "heysebc",
-      "total_points": 4424.0,
-      "weeks_played": 10,
-      "avg_rank": 12.4,
-      "best_rank": 2,
-      "worst_rank": 26,
+      "manager": "ziggysmalls1224",
+      "total_points": 4871.0,
+      "weeks_played": 11,
+      "avg_rank": 12.6,
+      "best_rank": 1,
+      "worst_rank": 31,
       "season_rank": 6
     },
     {
       "manager": "nvance69420",
-      "total_points": 4405.5,
-      "weeks_played": 10,
-      "avg_rank": 12.9,
+      "total_points": 4841.0,
+      "weeks_played": 11,
+      "avg_rank": 12.7,
       "best_rank": 2,
       "worst_rank": 30,
       "season_rank": 7
     },
     {
-      "manager": "jaywmiller22",
-      "total_points": 4340.0,
-      "weeks_played": 10,
-      "avg_rank": 14.5,
-      "best_rank": 2,
-      "worst_rank": 30,
+      "manager": "lcrose22",
+      "total_points": 4804.0,
+      "weeks_played": 11,
+      "avg_rank": 15.0,
+      "best_rank": 1,
+      "worst_rank": 31,
       "season_rank": 8
     },
     {
-      "manager": "ziggysmalls1224",
-      "total_points": 4319.5,
-      "weeks_played": 10,
-      "avg_rank": 13.8,
-      "best_rank": 1,
-      "worst_rank": 31,
+      "manager": "vader.av",
+      "total_points": 4772.5,
+      "weeks_played": 11,
+      "avg_rank": 14.9,
+      "best_rank": 4,
+      "worst_rank": 29,
       "season_rank": 9
     },
     {
-      "manager": "vader.av",
-      "total_points": 4304.5,
-      "weeks_played": 10,
-      "avg_rank": 15.7,
-      "best_rank": 4,
-      "worst_rank": 29,
+      "manager": "Bmillertime3",
+      "total_points": 4687.5,
+      "weeks_played": 11,
+      "avg_rank": 13.9,
+      "best_rank": 3,
+      "worst_rank": 28,
       "season_rank": 10
     },
     {
-      "manager": "Bmillertime3",
-      "total_points": 4284.5,
-      "weeks_played": 10,
-      "avg_rank": 13.7,
-      "best_rank": 3,
-      "worst_rank": 28,
+      "manager": "heysenwisen",
+      "total_points": 4666.5,
+      "weeks_played": 11,
+      "avg_rank": 15.6,
+      "best_rank": 1,
+      "worst_rank": 29,
       "season_rank": 11
     },
     {
-      "manager": "heysenwisen",
-      "total_points": 4246.5,
-      "weeks_played": 10,
-      "avg_rank": 15.8,
-      "best_rank": 1,
-      "worst_rank": 29,
+      "manager": "ColeMighty",
+      "total_points": 4664.0,
+      "weeks_played": 11,
+      "avg_rank": 14.6,
+      "best_rank": 5,
+      "worst_rank": 27,
       "season_rank": 12
     },
     {
-      "manager": "Sheetwood24",
-      "total_points": 4229.0,
-      "weeks_played": 10,
-      "avg_rank": 15.1,
-      "best_rank": 5,
-      "worst_rank": 27,
+      "manager": "jaywmiller22",
+      "total_points": 4640.0,
+      "weeks_played": 11,
+      "avg_rank": 15.5,
+      "best_rank": 2,
+      "worst_rank": 30,
       "season_rank": 13
     },
     {
-      "manager": "ColeMighty",
-      "total_points": 4197.0,
-      "weeks_played": 10,
-      "avg_rank": 15.3,
+      "manager": "Sheetwood24",
+      "total_points": 4608.5,
+      "weeks_played": 11,
+      "avg_rank": 15.4,
       "best_rank": 5,
       "worst_rank": 27,
       "season_rank": 14
     },
     {
-      "manager": "utaherica",
-      "total_points": 4195.0,
-      "weeks_played": 10,
-      "avg_rank": 17.8,
-      "best_rank": 3,
-      "worst_rank": 28,
+      "manager": "meathighway",
+      "total_points": 4521.5,
+      "weeks_played": 11,
+      "avg_rank": 16.2,
+      "best_rank": 5,
+      "worst_rank": 26,
       "season_rank": 15
     },
     {
-      "manager": "meathighway",
-      "total_points": 4169.5,
-      "weeks_played": 10,
-      "avg_rank": 15.8,
-      "best_rank": 5,
-      "worst_rank": 26,
+      "manager": "jlee45",
+      "total_points": 4501.0,
+      "weeks_played": 11,
+      "avg_rank": 17.2,
+      "best_rank": 1,
+      "worst_rank": 31,
       "season_rank": 16
     },
     {
+      "manager": "cwoofter",
+      "total_points": 4462.0,
+      "weeks_played": 11,
+      "avg_rank": 17.5,
+      "best_rank": 8,
+      "worst_rank": 28,
+      "season_rank": 17
+    },
+    {
+      "manager": "kenji2323",
+      "total_points": 4459.5,
+      "weeks_played": 11,
+      "avg_rank": 17.4,
+      "best_rank": 2,
+      "worst_rank": 30,
+      "season_rank": 18
+    },
+    {
+      "manager": "wheelhousestl",
+      "total_points": 4454.5,
+      "weeks_played": 11,
+      "avg_rank": 17.7,
+      "best_rank": 3,
+      "worst_rank": 30,
+      "season_rank": 19
+    },
+    {
       "manager": "ewoofter",
-      "total_points": 4101.5,
-      "weeks_played": 10,
-      "avg_rank": 17.3,
+      "total_points": 4452.0,
+      "weeks_played": 11,
+      "avg_rank": 17.6,
       "best_rank": 9,
       "worst_rank": 30,
-      "season_rank": 17
+      "season_rank": 20
+    },
+    {
+      "manager": "scottdold",
+      "total_points": 4433.0,
+      "weeks_played": 10,
+      "avg_rank": 13.9,
+      "best_rank": 1,
+      "worst_rank": 27,
+      "season_rank": 21
+    },
+    {
+      "manager": "Bmacsupreme",
+      "total_points": 4363.5,
+      "weeks_played": 11,
+      "avg_rank": 15.8,
+      "best_rank": 1,
+      "worst_rank": 31,
+      "season_rank": 22
+    },
+    {
+      "manager": "EasyChris",
+      "total_points": 4341.0,
+      "weeks_played": 10,
+      "avg_rank": 14.9,
+      "best_rank": 6,
+      "worst_rank": 24,
+      "season_rank": 23
+    },
+    {
+      "manager": "rolander32",
+      "total_points": 4290.0,
+      "weeks_played": 11,
+      "avg_rank": 20.2,
+      "best_rank": 3,
+      "worst_rank": 31,
+      "season_rank": 24
+    },
+    {
+      "manager": "karibou5550",
+      "total_points": 4230.0,
+      "weeks_played": 10,
+      "avg_rank": 16.0,
+      "best_rank": 4,
+      "worst_rank": 24,
+      "season_rank": 25
+    },
+    {
+      "manager": "utaherica",
+      "total_points": 4195.0,
+      "weeks_played": 11,
+      "avg_rank": 18.6,
+      "best_rank": 3,
+      "worst_rank": 28,
+      "season_rank": 26
+    },
+    {
+      "manager": "dowens25",
+      "total_points": 4178.0,
+      "weeks_played": 10,
+      "avg_rank": 16.4,
+      "best_rank": 4,
+      "worst_rank": 31,
+      "season_rank": 27
     },
     {
       "manager": "kreybradley",
@@ -361,88 +444,7 @@
       "avg_rank": 17.8,
       "best_rank": 4,
       "worst_rank": 30,
-      "season_rank": 18
-    },
-    {
-      "manager": "jlee45",
-      "total_points": 4094.5,
-      "weeks_played": 10,
-      "avg_rank": 17.4,
-      "best_rank": 1,
-      "worst_rank": 31,
-      "season_rank": 19
-    },
-    {
-      "manager": "kenji2323",
-      "total_points": 4021.5,
-      "weeks_played": 10,
-      "avg_rank": 18.1,
-      "best_rank": 2,
-      "worst_rank": 30,
-      "season_rank": 20
-    },
-    {
-      "manager": "Bmacsupreme",
-      "total_points": 4015.5,
-      "weeks_played": 10,
-      "avg_rank": 15.2,
-      "best_rank": 1,
-      "worst_rank": 31,
-      "season_rank": 21
-    },
-    {
-      "manager": "scottdold",
-      "total_points": 4005.0,
-      "weeks_played": 9,
-      "avg_rank": 14.1,
-      "best_rank": 1,
-      "worst_rank": 27,
-      "season_rank": 22
-    },
-    {
-      "manager": "cwoofter",
-      "total_points": 4003.0,
-      "weeks_played": 10,
-      "avg_rank": 18.4,
-      "best_rank": 8,
-      "worst_rank": 28,
-      "season_rank": 23
-    },
-    {
-      "manager": "wheelhousestl",
-      "total_points": 3985.0,
-      "weeks_played": 10,
-      "avg_rank": 18.9,
-      "best_rank": 3,
-      "worst_rank": 30,
-      "season_rank": 24
-    },
-    {
-      "manager": "EasyChris",
-      "total_points": 3983.0,
-      "weeks_played": 9,
-      "avg_rank": 14.4,
-      "best_rank": 6,
-      "worst_rank": 24,
-      "season_rank": 25
-    },
-    {
-      "manager": "rolander32",
-      "total_points": 3965.5,
-      "weeks_played": 10,
-      "avg_rank": 19.8,
-      "best_rank": 3,
-      "worst_rank": 31,
-      "season_rank": 26
-    },
-    {
-      "manager": "karibou5550",
-      "total_points": 3751.5,
-      "weeks_played": 9,
-      "avg_rank": 17.2,
-      "best_rank": 4,
-      "worst_rank": 24,
-      "season_rank": 27
+      "season_rank": 28
     },
     {
       "manager": "rmealy",
@@ -451,24 +453,15 @@
       "avg_rank": 18.8,
       "best_rank": 4,
       "worst_rank": 27,
-      "season_rank": 28
+      "season_rank": 29
     },
     {
       "manager": "idlee23",
       "total_points": 3713.5,
-      "weeks_played": 9,
-      "avg_rank": 18.0,
+      "weeks_played": 10,
+      "avg_rank": 19.0,
       "best_rank": 2,
       "worst_rank": 30,
-      "season_rank": 29
-    },
-    {
-      "manager": "dowens25",
-      "total_points": 3687.0,
-      "weeks_played": 9,
-      "avg_rank": 17.8,
-      "best_rank": 10,
-      "worst_rank": 31,
       "season_rank": 30
     },
     {
@@ -902,6 +895,53 @@
             "player": "Adam Scott",
             "ownership_pct": 20.0,
             "fpts": 55.5,
+            "pga_position": "T56"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 12,
+        "points": 428.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Brooks Koepka",
+            "ownership_pct": 38.5,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Jake Knapp",
+            "ownership_pct": 23.1,
+            "fpts": 108.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Michael Thorbjornsen",
+            "ownership_pct": 30.8,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Sahith Theegala",
+            "ownership_pct": 23.1,
+            "fpts": 85.5,
+            "pga_position": "T10"
+          },
+          {
+            "player": "Ricky Castillo",
+            "ownership_pct": 11.5,
+            "fpts": 64.5,
+            "pga_position": "T44"
+          },
+          {
+            "player": "Tom Kim",
+            "ownership_pct": 11.5,
+            "fpts": 58.5,
             "pga_position": "T56"
           }
         ]
@@ -1377,6 +1417,53 @@
             "pga_position": "MC"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 17,
+        "points": 380.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Chris Gotterup",
+            "ownership_pct": 42.3,
+            "fpts": 99.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Brooks Koepka",
+            "ownership_pct": 38.5,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Michael Thorbjornsen",
+            "ownership_pct": 30.8,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Wyndham Clark",
+            "ownership_pct": 15.4,
+            "fpts": 34.5,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Sudarshan Yellamaraju",
+            "ownership_pct": 30.8,
+            "fpts": 108.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Isaiah Salinda",
+            "ownership_pct": 3.9,
+            "fpts": 27.0,
+            "pga_position": "MC"
+          }
+        ]
       }
     ],
     "JottieBucs": [
@@ -1847,6 +1934,53 @@
             "ownership_pct": 10.3,
             "fpts": 56.0,
             "pga_position": "T55"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 26,
+        "points": 256.5,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Brooks Koepka",
+            "ownership_pct": 38.5,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Adam Scott",
+            "ownership_pct": 15.4,
+            "fpts": 83.0,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Ryan Gerard",
+            "ownership_pct": 19.2,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Pierceson Coody",
+            "ownership_pct": 19.2,
+            "fpts": 12.0,
+            "pga_position": "WD"
+          },
+          {
+            "player": "Alex Smalley",
+            "ownership_pct": 7.7,
+            "fpts": 77.0,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Rasmus Neergaard-Petersen",
+            "ownership_pct": 11.5,
+            "fpts": 26.5,
+            "pga_position": "MC"
           }
         ]
       }
@@ -2321,6 +2455,53 @@
             "pga_position": "T68"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 15,
+        "points": 406.5,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Jake Knapp",
+            "ownership_pct": 23.1,
+            "fpts": 108.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Nicolai Hojgaard",
+            "ownership_pct": 26.9,
+            "fpts": 120.0,
+            "pga_position": "2"
+          },
+          {
+            "player": "Marco Penge",
+            "ownership_pct": 19.2,
+            "fpts": 32.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Pierceson Coody",
+            "ownership_pct": 19.2,
+            "fpts": 12.0,
+            "pga_position": "WD"
+          },
+          {
+            "player": "Sudarshan Yellamaraju",
+            "ownership_pct": 30.8,
+            "fpts": 108.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Rasmus Neergaard-Petersen",
+            "ownership_pct": 11.5,
+            "fpts": 26.5,
+            "pga_position": "MC"
+          }
+        ]
       }
     ],
     "jpevans05": [
@@ -2791,6 +2972,53 @@
             "ownership_pct": 34.5,
             "fpts": 54.0,
             "pga_position": "T68"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 13,
+        "points": 424.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Chris Gotterup",
+            "ownership_pct": 42.3,
+            "fpts": 99.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Nicolai Hojgaard",
+            "ownership_pct": 26.9,
+            "fpts": 120.0,
+            "pga_position": "2"
+          },
+          {
+            "player": "Ryan Gerard",
+            "ownership_pct": 19.2,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Keith Mitchell",
+            "ownership_pct": 19.2,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Tony Finau",
+            "ownership_pct": 15.4,
+            "fpts": 69.5,
+            "pga_position": "T39"
+          },
+          {
+            "player": "David Lipsky",
+            "ownership_pct": 7.7,
+            "fpts": 24.0,
+            "pga_position": "MC"
           }
         ]
       }
@@ -3265,6 +3493,53 @@
             "pga_position": "T40"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 18,
+        "points": 379.5,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Brooks Koepka",
+            "ownership_pct": 38.5,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Marco Penge",
+            "ownership_pct": 19.2,
+            "fpts": 32.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Keith Mitchell",
+            "ownership_pct": 19.2,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Jason Day",
+            "ownership_pct": 11.5,
+            "fpts": 102.5,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Stephan Jaeger",
+            "ownership_pct": 15.4,
+            "fpts": 75.0,
+            "pga_position": "T28"
+          },
+          {
+            "player": "Tom Kim",
+            "ownership_pct": 11.5,
+            "fpts": 58.5,
+            "pga_position": "T56"
+          }
+        ]
       }
     ],
     "ColeMighty": [
@@ -3735,6 +4010,53 @@
             "ownership_pct": 34.5,
             "fpts": 54.0,
             "pga_position": "T68"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 8,
+        "points": 467.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Min Woo Lee",
+            "ownership_pct": 19.2,
+            "fpts": 114.0,
+            "pga_position": "T3"
+          },
+          {
+            "player": "Jake Knapp",
+            "ownership_pct": 23.1,
+            "fpts": 108.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Ryan Gerard",
+            "ownership_pct": 19.2,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Sahith Theegala",
+            "ownership_pct": 23.1,
+            "fpts": 85.5,
+            "pga_position": "T10"
+          },
+          {
+            "player": "Ryan Fox",
+            "ownership_pct": 15.4,
+            "fpts": 22.5,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Sudarshan Yellamaraju",
+            "ownership_pct": 30.8,
+            "fpts": 108.0,
+            "pga_position": "T6"
           }
         ]
       }
@@ -4209,6 +4531,53 @@
             "pga_position": "T40"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 11,
+        "points": 435.5,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Brooks Koepka",
+            "ownership_pct": 38.5,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Harris English",
+            "ownership_pct": 19.2,
+            "fpts": 73.5,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Michael Thorbjornsen",
+            "ownership_pct": 30.8,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Sam Stevens",
+            "ownership_pct": 7.7,
+            "fpts": 99.0,
+            "pga_position": "5"
+          },
+          {
+            "player": "Stephan Jaeger",
+            "ownership_pct": 15.4,
+            "fpts": 75.0,
+            "pga_position": "T28"
+          },
+          {
+            "player": "Aldrich Potgieter",
+            "ownership_pct": 15.4,
+            "fpts": 76.5,
+            "pga_position": "T21"
+          }
+        ]
       }
     ],
     "heysebc": [
@@ -4681,6 +5050,53 @@
             "pga_position": "T46"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 3,
+        "points": 505.5,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Chris Gotterup",
+            "ownership_pct": 42.3,
+            "fpts": 99.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Nicolai Hojgaard",
+            "ownership_pct": 26.9,
+            "fpts": 120.0,
+            "pga_position": "2"
+          },
+          {
+            "player": "Adam Scott",
+            "ownership_pct": 15.4,
+            "fpts": 83.0,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Rasmus Hojgaard",
+            "ownership_pct": 7.7,
+            "fpts": 70.0,
+            "pga_position": "T28"
+          },
+          {
+            "player": "Sudarshan Yellamaraju",
+            "ownership_pct": 30.8,
+            "fpts": 108.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "David Ford",
+            "ownership_pct": 3.9,
+            "fpts": 25.5,
+            "pga_position": "MC"
+          }
+        ]
       }
     ],
     "meathighway": [
@@ -5150,6 +5566,53 @@
             "player": "Zachary Bauchou",
             "ownership_pct": 6.9,
             "fpts": 25.5,
+            "pga_position": "MC"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 20,
+        "points": 352.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Chris Gotterup",
+            "ownership_pct": 42.3,
+            "fpts": 99.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Kurt Kitayama",
+            "ownership_pct": 7.7,
+            "fpts": 73.5,
+            "pga_position": "T60"
+          },
+          {
+            "player": "Ryan Gerard",
+            "ownership_pct": 19.2,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Sungjae Im",
+            "ownership_pct": 11.5,
+            "fpts": 54.0,
+            "pga_position": "T60"
+          },
+          {
+            "player": "Jordan L. Smith",
+            "ownership_pct": 3.9,
+            "fpts": 74.0,
+            "pga_position": "DNP"
+          },
+          {
+            "player": "Ryan Fox",
+            "ownership_pct": 15.4,
+            "fpts": 22.5,
             "pga_position": "MC"
           }
         ]
@@ -5625,6 +6088,53 @@
             "pga_position": "T40"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 6,
+        "points": 469.5,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Chris Gotterup",
+            "ownership_pct": 42.3,
+            "fpts": 99.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Nicolai Hojgaard",
+            "ownership_pct": 26.9,
+            "fpts": 120.0,
+            "pga_position": "2"
+          },
+          {
+            "player": "Keith Mitchell",
+            "ownership_pct": 19.2,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Taylor Pendrith",
+            "ownership_pct": 7.7,
+            "fpts": 15.5,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Alex Smalley",
+            "ownership_pct": 7.7,
+            "fpts": 77.0,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Chad Ramey",
+            "ownership_pct": 3.9,
+            "fpts": 75.5,
+            "pga_position": "T28"
+          }
+        ]
       }
     ],
     "dowens25": [
@@ -6048,6 +6558,53 @@
             "ownership_pct": 10.3,
             "fpts": 14.5,
             "pga_position": "MC"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 4,
+        "points": 491.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Chris Gotterup",
+            "ownership_pct": 42.3,
+            "fpts": 99.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Jake Knapp",
+            "ownership_pct": 23.1,
+            "fpts": 108.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Harris English",
+            "ownership_pct": 19.2,
+            "fpts": 73.5,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Sahith Theegala",
+            "ownership_pct": 23.1,
+            "fpts": 85.5,
+            "pga_position": "T10"
+          },
+          {
+            "player": "Christiaan Bezuidenhout",
+            "ownership_pct": 3.9,
+            "fpts": 66.5,
+            "pga_position": "T51"
+          },
+          {
+            "player": "Tom Kim",
+            "ownership_pct": 11.5,
+            "fpts": 58.5,
+            "pga_position": "T56"
           }
         ]
       }
@@ -6483,6 +7040,53 @@
             "ownership_pct": 10.3,
             "fpts": 23.5,
             "pga_position": "MC"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 16,
+        "points": 403.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Chris Gotterup",
+            "ownership_pct": 42.3,
+            "fpts": 99.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Brooks Koepka",
+            "ownership_pct": 38.5,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Pierceson Coody",
+            "ownership_pct": 19.2,
+            "fpts": 12.0,
+            "pga_position": "WD"
+          },
+          {
+            "player": "Sahith Theegala",
+            "ownership_pct": 23.1,
+            "fpts": 85.5,
+            "pga_position": "T10"
+          },
+          {
+            "player": "Tony Finau",
+            "ownership_pct": 15.4,
+            "fpts": 69.5,
+            "pga_position": "T39"
+          },
+          {
+            "player": "Sudarshan Yellamaraju",
+            "ownership_pct": 30.8,
+            "fpts": 108.0,
+            "pga_position": "T6"
           }
         ]
       }
@@ -6957,6 +7561,53 @@
             "pga_position": "T26"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 24,
+        "points": 324.5,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Brooks Koepka",
+            "ownership_pct": 38.5,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Harris English",
+            "ownership_pct": 19.2,
+            "fpts": 73.5,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Michael Thorbjornsen",
+            "ownership_pct": 30.8,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Will Zalatoris",
+            "ownership_pct": 3.9,
+            "fpts": 31.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Sahith Theegala",
+            "ownership_pct": 23.1,
+            "fpts": 85.5,
+            "pga_position": "T10"
+          },
+          {
+            "player": "Patrick Rodgers",
+            "ownership_pct": 3.9,
+            "fpts": 23.0,
+            "pga_position": "MC"
+          }
+        ]
       }
     ],
     "EasyChris": [
@@ -7380,6 +8031,53 @@
             "ownership_pct": 30.0,
             "fpts": 79.0,
             "pga_position": "T13"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 19,
+        "points": 358.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Rickie Fowler",
+            "ownership_pct": 7.7,
+            "fpts": 29.5,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Ryan Gerard",
+            "ownership_pct": 19.2,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Keith Mitchell",
+            "ownership_pct": 19.2,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Jason Day",
+            "ownership_pct": 11.5,
+            "fpts": 102.5,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Sam Stevens",
+            "ownership_pct": 7.7,
+            "fpts": 99.0,
+            "pga_position": "5"
+          },
+          {
+            "player": "Taylor Pendrith",
+            "ownership_pct": 7.7,
+            "fpts": 15.5,
+            "pga_position": "MC"
           }
         ]
       }
@@ -7854,6 +8552,53 @@
             "pga_position": "T55"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 9,
+        "points": 459.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Min Woo Lee",
+            "ownership_pct": 19.2,
+            "fpts": 114.0,
+            "pga_position": "T3"
+          },
+          {
+            "player": "Chris Gotterup",
+            "ownership_pct": 42.3,
+            "fpts": 99.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Nicolai Hojgaard",
+            "ownership_pct": 26.9,
+            "fpts": 120.0,
+            "pga_position": "2"
+          },
+          {
+            "player": "Ricky Castillo",
+            "ownership_pct": 11.5,
+            "fpts": 64.5,
+            "pga_position": "T44"
+          },
+          {
+            "player": "Billy Horschel",
+            "ownership_pct": 3.9,
+            "fpts": 37.5,
+            "pga_position": "MC"
+          },
+          {
+            "player": "David Lipsky",
+            "ownership_pct": 7.7,
+            "fpts": 24.0,
+            "pga_position": "MC"
+          }
+        ]
       }
     ],
     "kenji2323": [
@@ -8324,6 +9069,53 @@
             "ownership_pct": 3.5,
             "fpts": 24.5,
             "pga_position": "MC"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 10,
+        "points": 438.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Nicolai Hojgaard",
+            "ownership_pct": 26.9,
+            "fpts": 120.0,
+            "pga_position": "2"
+          },
+          {
+            "player": "Harris English",
+            "ownership_pct": 19.2,
+            "fpts": 73.5,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Michael Thorbjornsen",
+            "ownership_pct": 30.8,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Pierceson Coody",
+            "ownership_pct": 19.2,
+            "fpts": 12.0,
+            "pga_position": "WD"
+          },
+          {
+            "player": "Sahith Theegala",
+            "ownership_pct": 23.1,
+            "fpts": 85.5,
+            "pga_position": "T10"
+          },
+          {
+            "player": "Ricky Castillo",
+            "ownership_pct": 11.5,
+            "fpts": 64.5,
+            "pga_position": "T44"
           }
         ]
       }
@@ -8798,6 +9590,53 @@
             "pga_position": "T68"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 21,
+        "points": 350.5,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Brooks Koepka",
+            "ownership_pct": 38.5,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Jake Knapp",
+            "ownership_pct": 23.1,
+            "fpts": 108.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Michael Thorbjornsen",
+            "ownership_pct": 30.8,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Wyndham Clark",
+            "ownership_pct": 15.4,
+            "fpts": 34.5,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Rasmus Neergaard-Petersen",
+            "ownership_pct": 11.5,
+            "fpts": 26.5,
+            "pga_position": "MC"
+          },
+          {
+            "player": "William Mouw",
+            "ownership_pct": 3.9,
+            "fpts": 70.0,
+            "pga_position": "T44"
+          }
+        ]
       }
     ],
     "tgroff24": [
@@ -9268,6 +10107,53 @@
             "ownership_pct": 6.9,
             "fpts": 51.5,
             "pga_position": "T68"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 2,
+        "points": 541.5,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Min Woo Lee",
+            "ownership_pct": 19.2,
+            "fpts": 114.0,
+            "pga_position": "T3"
+          },
+          {
+            "player": "Chris Gotterup",
+            "ownership_pct": 42.3,
+            "fpts": 99.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Jake Knapp",
+            "ownership_pct": 23.1,
+            "fpts": 108.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Ryan Fox",
+            "ownership_pct": 15.4,
+            "fpts": 22.5,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Sudarshan Yellamaraju",
+            "ownership_pct": 30.8,
+            "fpts": 108.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Bronson Burgoon",
+            "ownership_pct": 3.9,
+            "fpts": 90.0,
+            "pga_position": "T10"
           }
         ]
       }
@@ -10592,6 +11478,53 @@
             "pga_position": "T18"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 7,
+        "points": 468.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Chris Gotterup",
+            "ownership_pct": 42.3,
+            "fpts": 99.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Marco Penge",
+            "ownership_pct": 19.2,
+            "fpts": 32.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Michael Thorbjornsen",
+            "ownership_pct": 30.8,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Rasmus Hojgaard",
+            "ownership_pct": 7.7,
+            "fpts": 70.0,
+            "pga_position": "T28"
+          },
+          {
+            "player": "Aldrich Potgieter",
+            "ownership_pct": 15.4,
+            "fpts": 76.5,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Sudarshan Yellamaraju",
+            "ownership_pct": 30.8,
+            "fpts": 108.0,
+            "pga_position": "T6"
+          }
+        ]
       }
     ],
     "karibou5550": [
@@ -11015,6 +11948,53 @@
             "ownership_pct": 3.5,
             "fpts": 52.0,
             "pga_position": "T55"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 5,
+        "points": 478.5,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Min Woo Lee",
+            "ownership_pct": 19.2,
+            "fpts": 114.0,
+            "pga_position": "T3"
+          },
+          {
+            "player": "Brooks Koepka",
+            "ownership_pct": 38.5,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Stephan Jaeger",
+            "ownership_pct": 15.4,
+            "fpts": 75.0,
+            "pga_position": "T28"
+          },
+          {
+            "player": "Tony Finau",
+            "ownership_pct": 15.4,
+            "fpts": 69.5,
+            "pga_position": "T39"
+          },
+          {
+            "player": "Sungjae Im",
+            "ownership_pct": 11.5,
+            "fpts": 54.0,
+            "pga_position": "T60"
+          },
+          {
+            "player": "Gary Woodland",
+            "ownership_pct": 7.7,
+            "fpts": 137.0,
+            "pga_position": "1"
           }
         ]
       }
@@ -11489,6 +12469,53 @@
             "pga_position": "T68"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 23,
+        "points": 329.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Chris Gotterup",
+            "ownership_pct": 42.3,
+            "fpts": 99.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Marco Penge",
+            "ownership_pct": 19.2,
+            "fpts": 32.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Michael Thorbjornsen",
+            "ownership_pct": 30.8,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Pierceson Coody",
+            "ownership_pct": 19.2,
+            "fpts": 12.0,
+            "pga_position": "WD"
+          },
+          {
+            "player": "Hao-Tong Li",
+            "ownership_pct": 3.9,
+            "fpts": 27.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Aldrich Potgieter",
+            "ownership_pct": 15.4,
+            "fpts": 76.5,
+            "pga_position": "T21"
+          }
+        ]
       }
     ],
     "Bmacsupreme": [
@@ -11885,6 +12912,53 @@
             "ownership_pct": 34.5,
             "fpts": 23.0,
             "pga_position": "MC"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 22,
+        "points": 348.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Rickie Fowler",
+            "ownership_pct": 7.7,
+            "fpts": 29.5,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Adam Scott",
+            "ownership_pct": 15.4,
+            "fpts": 83.0,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Harris English",
+            "ownership_pct": 19.2,
+            "fpts": 73.5,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Keith Mitchell",
+            "ownership_pct": 19.2,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Ryan Fox",
+            "ownership_pct": 15.4,
+            "fpts": 22.5,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Lee Hodges",
+            "ownership_pct": 3.9,
+            "fpts": 57.0,
+            "pga_position": "T65"
           }
         ]
       }
@@ -12310,6 +13384,53 @@
             "ownership_pct": 6.9,
             "fpts": 99.5,
             "pga_position": "T4"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 28,
+        "points": 0.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Chris Gotterup",
+            "ownership_pct": 42.3,
+            "fpts": 99.0,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Stephan Jaeger",
+            "ownership_pct": 15.4,
+            "fpts": 75.0,
+            "pga_position": "T28"
+          },
+          {
+            "player": "Sahith Theegala",
+            "ownership_pct": 23.1,
+            "fpts": 85.5,
+            "pga_position": "T10"
+          },
+          {
+            "player": "Pierceson Coody",
+            "ownership_pct": 19.2,
+            "fpts": 12.0,
+            "pga_position": "WD"
+          },
+          {
+            "player": "Keith Mitchell",
+            "ownership_pct": 19.2,
+            "fpts": 82.5,
+            "pga_position": "T14"
+          },
+          {
+            "player": "Patrick Rodgers",
+            "ownership_pct": 3.9,
+            "fpts": 23.0,
+            "pga_position": "MC"
           }
         ]
       }
@@ -13256,6 +14377,53 @@
             "pga_position": "T26"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 27,
+        "points": 0.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Min Woo Lee",
+            "ownership_pct": 19.2,
+            "fpts": 114.0,
+            "pga_position": "T3"
+          },
+          {
+            "player": "Adam Scott",
+            "ownership_pct": 15.4,
+            "fpts": 83.0,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Stephan Jaeger",
+            "ownership_pct": 15.4,
+            "fpts": 75.0,
+            "pga_position": "T28"
+          },
+          {
+            "player": "Sahith Theegala",
+            "ownership_pct": 23.1,
+            "fpts": 85.5,
+            "pga_position": "T10"
+          },
+          {
+            "player": "Alex Smalley",
+            "ownership_pct": 7.7,
+            "fpts": 77.0,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Sam Stevens",
+            "ownership_pct": 7.7,
+            "fpts": 99.0,
+            "pga_position": "5"
+          }
+        ]
       }
     ],
     "heysenwisen": [
@@ -13726,6 +14894,53 @@
             "ownership_pct": 3.5,
             "fpts": 48.0,
             "pga_position": "T64"
+          }
+        ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 14,
+        "points": 420.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Sam Burns",
+            "ownership_pct": 3.9,
+            "fpts": 79.0,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Kurt Kitayama",
+            "ownership_pct": 7.7,
+            "fpts": 73.5,
+            "pga_position": "T60"
+          },
+          {
+            "player": "Wyndham Clark",
+            "ownership_pct": 15.4,
+            "fpts": 34.5,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Jason Day",
+            "ownership_pct": 11.5,
+            "fpts": 102.5,
+            "pga_position": "T6"
+          },
+          {
+            "player": "Sungjae Im",
+            "ownership_pct": 11.5,
+            "fpts": 54.0,
+            "pga_position": "T60"
+          },
+          {
+            "player": "Aldrich Potgieter",
+            "ownership_pct": 15.4,
+            "fpts": 76.5,
+            "pga_position": "T21"
           }
         ]
       }
@@ -14200,6 +15415,53 @@
             "pga_position": "T55"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 25,
+        "points": 300.0,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Brooks Koepka",
+            "ownership_pct": 38.5,
+            "fpts": 29.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Nicolai Hojgaard",
+            "ownership_pct": 26.9,
+            "fpts": 120.0,
+            "pga_position": "2"
+          },
+          {
+            "player": "Marco Penge",
+            "ownership_pct": 19.2,
+            "fpts": 32.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Tony Finau",
+            "ownership_pct": 15.4,
+            "fpts": 69.5,
+            "pga_position": "T39"
+          },
+          {
+            "player": "Max Greyserman",
+            "ownership_pct": 3.9,
+            "fpts": 19.0,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Mackenzie Hughes",
+            "ownership_pct": 3.9,
+            "fpts": 30.5,
+            "pga_position": "MC"
+          }
+        ]
       }
     ],
     "ziggysmalls1224": [
@@ -14672,6 +15934,53 @@
             "pga_position": "T40"
           }
         ]
+      },
+      {
+        "tournament": "Houston Open",
+        "tournament_name": "Texas Childrens Houston Open",
+        "date": "Mar 26-29",
+        "winner": "Gary Woodland",
+        "rank": 1,
+        "points": 551.5,
+        "total_entries": 28,
+        "players": [
+          {
+            "player": "Min Woo Lee",
+            "ownership_pct": 19.2,
+            "fpts": 114.0,
+            "pga_position": "T3"
+          },
+          {
+            "player": "Adam Scott",
+            "ownership_pct": 15.4,
+            "fpts": 83.0,
+            "pga_position": "T21"
+          },
+          {
+            "player": "Wyndham Clark",
+            "ownership_pct": 15.4,
+            "fpts": 34.5,
+            "pga_position": "MC"
+          },
+          {
+            "player": "Stephan Jaeger",
+            "ownership_pct": 15.4,
+            "fpts": 75.0,
+            "pga_position": "T28"
+          },
+          {
+            "player": "Gary Woodland",
+            "ownership_pct": 7.7,
+            "fpts": 137.0,
+            "pga_position": "1"
+          },
+          {
+            "player": "Sudarshan Yellamaraju",
+            "ownership_pct": 30.8,
+            "fpts": 108.0,
+            "pga_position": "T6"
+          }
+        ]
       }
     ]
   },
@@ -14711,6 +16020,11 @@
         "pos": "T56",
         "fpts": 64.0,
         "ownership_pct": 16.7
+      },
+      "Houston Open": {
+        "pos": "T6",
+        "fpts": 99.0,
+        "ownership_pct": 42.3
       }
     },
     "Ryan Gerard": {
@@ -14753,6 +16067,11 @@
         "pos": "T27",
         "fpts": 72.0,
         "ownership_pct": 6.7
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 29.0,
+        "ownership_pct": 19.2
       }
     },
     "Patrick Rodgers": {
@@ -14800,6 +16119,11 @@
         "pos": "T40",
         "fpts": 63.0,
         "ownership_pct": 13.8
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 23.0,
+        "ownership_pct": 3.9
       }
     },
     "Robert MacIntyre": {
@@ -14916,6 +16240,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 15.5,
+        "ownership_pct": 7.7
       }
     },
     "Daniel Berger": {
@@ -14990,6 +16319,11 @@
         "pos": "T18",
         "fpts": 67.5,
         "ownership_pct": 3.5
+      },
+      "Houston Open": {
+        "pos": "T65",
+        "fpts": 57.0,
+        "ownership_pct": 3.9
       }
     },
     "Harry Hall": {
@@ -15025,6 +16359,11 @@
       },
       "Players": {
         "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T28",
         "fpts": null,
         "ownership_pct": null
       }
@@ -15064,6 +16403,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T60",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Jake Knapp": {
@@ -15101,6 +16445,11 @@
         "pos": "MC",
         "fpts": 23.0,
         "ownership_pct": 33.3
+      },
+      "Houston Open": {
+        "pos": "T6",
+        "fpts": 108.0,
+        "ownership_pct": 23.1
       }
     },
     "Si Woo Kim": {
@@ -15190,6 +16539,11 @@
         "pos": "T55",
         "fpts": 58.5,
         "ownership_pct": 13.8
+      },
+      "Houston Open": {
+        "pos": "WD",
+        "fpts": 12.0,
+        "ownership_pct": 19.2
       }
     },
     "Sudarshan Yellamaraju": {
@@ -15222,6 +16576,11 @@
         "pos": "T5",
         "fpts": 94.5,
         "ownership_pct": 3.3
+      },
+      "Houston Open": {
+        "pos": "T6",
+        "fpts": 108.0,
+        "ownership_pct": 30.8
       }
     },
     "Hideki Matsuyama": {
@@ -15294,6 +16653,11 @@
       },
       "Valspar": {
         "pos": "T7",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
         "fpts": null,
         "ownership_pct": null
       }
@@ -15375,6 +16739,11 @@
         "pos": "73",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T65",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Dan Brown": {
@@ -15404,6 +16773,11 @@
         "ownership_pct": null
       },
       "Valspar": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
@@ -15476,6 +16850,11 @@
         "pos": "T55",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Ben Griffin": {
@@ -15518,6 +16897,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T28",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "John Parry": {
@@ -15550,6 +16934,11 @@
         "pos": "T55",
         "fpts": 53.0,
         "ownership_pct": 6.9
+      },
+      "Houston Open": {
+        "pos": "T48",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Patton Kizzire": {
@@ -15579,6 +16968,11 @@
         "ownership_pct": null
       },
       "Valspar": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
@@ -15693,6 +17087,11 @@
         "pos": "T46",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Jordan Spieth": {
@@ -15762,6 +17161,11 @@
         "pos": "T26",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T12",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Corey Conners": {
@@ -15829,6 +17233,11 @@
       },
       "Valspar": {
         "pos": "T30",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
         "fpts": null,
         "ownership_pct": null
       }
@@ -15905,6 +17314,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T71",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Sahith Theegala": {
@@ -15952,6 +17366,11 @@
         "pos": "MC",
         "fpts": 16.0,
         "ownership_pct": 24.1
+      },
+      "Houston Open": {
+        "pos": "T10",
+        "fpts": 85.5,
+        "ownership_pct": 23.1
       }
     },
     "Ren Yonezawa": {
@@ -16001,6 +17420,11 @@
         "pos": "58",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "5",
+        "fpts": 99.0,
+        "ownership_pct": 7.7
       }
     },
     "Dylan Wu": {
@@ -16026,6 +17450,11 @@
       },
       "Valspar": {
         "pos": "T26",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
         "fpts": null,
         "ownership_pct": null
       }
@@ -16065,6 +17494,11 @@
         "pos": "T46",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T60",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Ricky Castillo": {
@@ -16097,6 +17531,11 @@
         "pos": "T46",
         "fpts": 61.0,
         "ownership_pct": 24.1
+      },
+      "Houston Open": {
+        "pos": "T44",
+        "fpts": 64.5,
+        "ownership_pct": 11.5
       }
     },
     "J.J. Spaun": {
@@ -16171,6 +17610,11 @@
         "pos": "MC",
         "fpts": 19.0,
         "ownership_pct": 3.5
+      },
+      "Houston Open": {
+        "pos": "T28",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Denny McCarthy": {
@@ -16213,6 +17657,11 @@
         "pos": "T26",
         "fpts": 61.5,
         "ownership_pct": 6.9
+      },
+      "Houston Open": {
+        "pos": "T12",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Tom Hoge": {
@@ -16255,6 +17704,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T71",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Adam Scott": {
@@ -16287,6 +17741,11 @@
         "pos": "T56",
         "fpts": 55.5,
         "ownership_pct": 20.0
+      },
+      "Houston Open": {
+        "pos": "T21",
+        "fpts": 83.0,
+        "ownership_pct": 15.4
       }
     },
     "Kurt Kitayama": {
@@ -16324,6 +17783,11 @@
         "pos": "MC",
         "fpts": 19.0,
         "ownership_pct": 3.3
+      },
+      "Houston Open": {
+        "pos": "T60",
+        "fpts": 73.5,
+        "ownership_pct": 7.7
       }
     },
     "Vince Whaley": {
@@ -16359,6 +17823,11 @@
       },
       "Valspar": {
         "pos": "T68",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T28",
         "fpts": null,
         "ownership_pct": null
       }
@@ -16410,6 +17879,11 @@
         "pos": "T46",
         "fpts": 62.0,
         "ownership_pct": 3.5
+      },
+      "Houston Open": {
+        "pos": "T21",
+        "fpts": 77.0,
+        "ownership_pct": 7.7
       }
     },
     "Adam Svensson": {
@@ -16434,6 +17908,11 @@
         "ownership_pct": null
       },
       "Valspar": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
@@ -16543,6 +18022,11 @@
         "pos": "T26",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T28",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Zac Blair": {
@@ -16587,6 +18071,11 @@
         "pos": "T46",
         "fpts": 58.5,
         "ownership_pct": 3.5
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 25.5,
+        "ownership_pct": 3.9
       }
     },
     "Zecheng Dou": {
@@ -16624,6 +18113,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T21",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Matthieu Pavon": {
@@ -16659,6 +18153,11 @@
       },
       "Valspar": {
         "pos": "T11",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T51",
         "fpts": null,
         "ownership_pct": null
       }
@@ -16720,6 +18219,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 27.0,
+        "ownership_pct": 3.9
       }
     },
     "Doug Ghim": {
@@ -16745,6 +18249,11 @@
       },
       "Valspar": {
         "pos": "T40",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
         "fpts": null,
         "ownership_pct": null
       }
@@ -16843,6 +18352,11 @@
         "pos": "T18",
         "fpts": 81.0,
         "ownership_pct": 6.9
+      },
+      "Houston Open": {
+        "pos": "T56",
+        "fpts": 58.5,
+        "ownership_pct": 11.5
       }
     },
     "Brian Harman": {
@@ -16902,6 +18416,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "John Keefer": {
@@ -16937,6 +18456,11 @@
       },
       "Valspar": {
         "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T3",
         "fpts": null,
         "ownership_pct": null
       }
@@ -16981,6 +18505,11 @@
         "pos": "T46",
         "fpts": 63.5,
         "ownership_pct": 6.7
+      },
+      "Houston Open": {
+        "pos": "T14",
+        "fpts": 82.5,
+        "ownership_pct": 19.2
       }
     },
     "Jordan Smith": {
@@ -17018,6 +18547,11 @@
         "pos": "3",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T44",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Mark Hubbard": {
@@ -17052,6 +18586,11 @@
         "ownership_pct": null
       },
       "Valspar": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
@@ -17097,6 +18636,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Zachary Bauchou": {
@@ -17134,6 +18678,11 @@
         "pos": "MC",
         "fpts": 25.5,
         "ownership_pct": 6.9
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Chad Ramey": {
@@ -17171,6 +18720,11 @@
         "pos": "T64",
         "fpts": 54.5,
         "ownership_pct": 3.5
+      },
+      "Houston Open": {
+        "pos": "T28",
+        "fpts": 75.5,
+        "ownership_pct": 3.9
       }
     },
     "William Mouw": {
@@ -17203,6 +18757,11 @@
         "pos": "T24",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T44",
+        "fpts": 70.0,
+        "ownership_pct": 3.9
       }
     },
     "Kota Kaneko": {
@@ -17252,6 +18811,11 @@
         "pos": "T68",
         "fpts": 54.0,
         "ownership_pct": 34.5
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 37.5,
+        "ownership_pct": 3.9
       }
     },
     "Collin Morikawa": {
@@ -17410,6 +18974,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T48",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Beau Hossler": {
@@ -17435,6 +19004,11 @@
       },
       "Valspar": {
         "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T21",
         "fpts": null,
         "ownership_pct": null
       }
@@ -17511,6 +19085,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T51",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Austin Eckroat": {
@@ -17541,6 +19120,11 @@
       },
       "Valspar": {
         "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T39",
         "fpts": null,
         "ownership_pct": null
       }
@@ -17585,6 +19169,11 @@
         "pos": "WD",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Kazuki Higa": {
@@ -17624,6 +19213,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Davis Chatfield": {
@@ -17654,6 +19248,11 @@
       },
       "Valspar": {
         "pos": "T40",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
         "fpts": null,
         "ownership_pct": null
       }
@@ -17703,6 +19302,11 @@
         "pos": "T40",
         "fpts": 59.5,
         "ownership_pct": 6.9
+      },
+      "Houston Open": {
+        "pos": "74",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Chris Kirk": {
@@ -17740,6 +19344,11 @@
         "pos": "T27",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T51",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Luke Clanton": {
@@ -17765,6 +19374,11 @@
       },
       "Valspar": {
         "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "75",
         "fpts": null,
         "ownership_pct": null
       }
@@ -17814,6 +19428,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T19",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Erik van Rooyen": {
@@ -17851,6 +19470,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T48",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "John VanDerLaan": {
@@ -17881,6 +19505,11 @@
       },
       "Valspar": {
         "pos": "T46",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
         "fpts": null,
         "ownership_pct": null
       }
@@ -17922,6 +19551,11 @@
         "pos": "T14",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Adrien Saddier": {
@@ -17952,6 +19586,11 @@
       },
       "Valspar": {
         "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T39",
         "fpts": null,
         "ownership_pct": null
       }
@@ -18050,6 +19689,11 @@
         "pos": "T18",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "68",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Isaiah Salinda": {
@@ -18077,6 +19721,11 @@
         "pos": "T46",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 27.0,
+        "ownership_pct": 3.9
       }
     },
     "A.J. Ewart": {
@@ -18112,6 +19761,11 @@
       },
       "Valspar": {
         "pos": "T11",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
         "fpts": null,
         "ownership_pct": null
       }
@@ -18151,6 +19805,11 @@
         "pos": "T14",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "1",
+        "fpts": 137.0,
+        "ownership_pct": 7.7
       }
     },
     "Alejandro Tosti": {
@@ -18181,6 +19840,11 @@
       },
       "Valspar": {
         "pos": "T30",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
         "fpts": null,
         "ownership_pct": null
       }
@@ -18225,6 +19889,11 @@
         "pos": "T7",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T71",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Michael Brennan": {
@@ -18262,6 +19931,11 @@
         "pos": "MC",
         "fpts": 24.5,
         "ownership_pct": 3.5
+      },
+      "Houston Open": {
+        "pos": "T28",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Gordon Sargent": {
@@ -18286,6 +19960,11 @@
         "ownership_pct": null
       },
       "Valspar": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
@@ -18355,6 +20034,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T65",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Tony Finau": {
@@ -18397,6 +20081,11 @@
         "pos": "T18",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T39",
+        "fpts": 69.5,
+        "ownership_pct": 15.4
       }
     },
     "Pontus Nyholm": {
@@ -18429,6 +20118,11 @@
         "pos": "MC",
         "fpts": 18.0,
         "ownership_pct": 3.5
+      },
+      "Houston Open": {
+        "pos": "T14",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Nicolas Echavarria": {
@@ -18471,6 +20165,11 @@
         "pos": "T66",
         "fpts": 52.0,
         "ownership_pct": 3.3
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Chandler Blanchet": {
@@ -18503,6 +20202,11 @@
         "pos": "T18",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Jeffrey Kang": {
@@ -18533,6 +20237,11 @@
       },
       "Valspar": {
         "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T39",
         "fpts": null,
         "ownership_pct": null
       }
@@ -18571,6 +20280,11 @@
         "ownership_pct": null
       },
       "Valspar": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
@@ -18648,6 +20362,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Christo Lamprecht": {
@@ -18672,6 +20391,11 @@
         "ownership_pct": null
       },
       "Cognizant": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
@@ -18704,6 +20428,11 @@
         "ownership_pct": null
       },
       "Valspar": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
@@ -18778,6 +20507,11 @@
         "pos": "T59",
         "fpts": 52.0,
         "ownership_pct": 10.0
+      },
+      "Houston Open": {
+        "pos": "T6",
+        "fpts": 102.5,
+        "ownership_pct": 11.5
       }
     },
     "Andrew Putnam": {
@@ -18808,6 +20542,11 @@
       },
       "Valspar": {
         "pos": "T30",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T44",
         "fpts": null,
         "ownership_pct": null
       }
@@ -18884,6 +20623,11 @@
         "pos": "MC",
         "fpts": 28.0,
         "ownership_pct": 6.9
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 34.5,
+        "ownership_pct": 15.4
       }
     },
     "Will Zalatoris": {
@@ -18901,6 +20645,11 @@
         "pos": "WD",
         "fpts": 0.0,
         "ownership_pct": 16.1
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 31.0,
+        "ownership_pct": 3.9
       }
     },
     "Karl Vilips": {
@@ -18931,6 +20680,11 @@
       },
       "Valspar": {
         "pos": "T64",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T19",
         "fpts": null,
         "ownership_pct": null
       }
@@ -18965,6 +20719,11 @@
         "pos": "T42",
         "fpts": 61.0,
         "ownership_pct": 3.3
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 29.5,
+        "ownership_pct": 7.7
       }
     },
     "Blades Brown": {
@@ -19041,6 +20800,11 @@
         "pos": "T64",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T60",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Harris English": {
@@ -19078,6 +20842,11 @@
         "pos": "MC",
         "fpts": 28.5,
         "ownership_pct": 3.3
+      },
+      "Houston Open": {
+        "pos": "T21",
+        "fpts": 73.5,
+        "ownership_pct": 19.2
       }
     },
     "Sam Burns": {
@@ -19110,6 +20879,11 @@
         "pos": "T13",
         "fpts": 79.5,
         "ownership_pct": 3.3
+      },
+      "Houston Open": {
+        "pos": "T21",
+        "fpts": 79.0,
+        "ownership_pct": 3.9
       }
     },
     "Christiaan Bezuidenhout": {
@@ -19142,6 +20916,11 @@
         "pos": "T30",
         "fpts": 62.0,
         "ownership_pct": 6.9
+      },
+      "Houston Open": {
+        "pos": "T51",
+        "fpts": 66.5,
+        "ownership_pct": 3.9
       }
     },
     "Joel Dahmen": {
@@ -19211,6 +20990,11 @@
         "pos": "T32",
         "fpts": 74.0,
         "ownership_pct": 23.3
+      },
+      "Houston Open": {
+        "pos": "T3",
+        "fpts": 114.0,
+        "ownership_pct": 19.2
       }
     },
     "J.T. Poston": {
@@ -19241,6 +21025,11 @@
       },
       "Players": {
         "pos": "T50",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
         "fpts": null,
         "ownership_pct": null
       }
@@ -19277,6 +21066,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T56",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Rasmus Hojgaard": {
@@ -19309,6 +21103,11 @@
         "pos": "T68",
         "fpts": 50.0,
         "ownership_pct": 6.9
+      },
+      "Houston Open": {
+        "pos": "T28",
+        "fpts": 70.0,
+        "ownership_pct": 7.7
       }
     },
     "David Lipsky": {
@@ -19331,6 +21130,11 @@
         "pos": "2",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 24.0,
+        "ownership_pct": 7.7
       }
     },
     "Taylor Moore": {
@@ -19363,6 +21167,11 @@
         "pos": "MC",
         "fpts": 14.5,
         "ownership_pct": 10.3
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Max Greyserman": {
@@ -19400,6 +21209,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 19.0,
+        "ownership_pct": 3.9
       }
     },
     "Matt Fitzpatrick": {
@@ -19481,6 +21295,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Camilo Villegas": {
@@ -19528,6 +21347,11 @@
       },
       "Valspar": {
         "pos": "T46",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
         "fpts": null,
         "ownership_pct": null
       }
@@ -19643,6 +21467,11 @@
         "pos": "T7",
         "fpts": 78.5,
         "ownership_pct": 3.5
+      },
+      "Houston Open": {
+        "pos": "T28",
+        "fpts": 75.0,
+        "ownership_pct": 15.4
       }
     },
     "Jason Dufner": {
@@ -19670,6 +21499,11 @@
       },
       "Valspar": {
         "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T69",
         "fpts": null,
         "ownership_pct": null
       }
@@ -19709,6 +21543,11 @@
       },
       "Valspar": {
         "pos": "T40",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T51",
         "fpts": null,
         "ownership_pct": null
       }
@@ -19866,6 +21705,11 @@
         "pos": "T30",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Michael Thorbjornsen": {
@@ -19903,6 +21747,11 @@
         "pos": "T22",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T14",
+        "fpts": 82.5,
+        "ownership_pct": 30.8
       }
     },
     "Aldrich Potgieter": {
@@ -19940,6 +21789,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T21",
+        "fpts": 76.5,
+        "ownership_pct": 15.4
       }
     },
     "Chan Kim": {
@@ -19989,6 +21843,11 @@
         "pos": "T55",
         "fpts": 52.0,
         "ownership_pct": 3.5
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 30.5,
+        "ownership_pct": 3.9
       }
     },
     "Jhonattan Vegas": {
@@ -20021,6 +21880,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T14",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Patrick Fishburn": {
@@ -20041,6 +21905,11 @@
       },
       "Valspar": {
         "pos": "T46",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
         "fpts": null,
         "ownership_pct": null
       }
@@ -20102,6 +21971,11 @@
       },
       "Valspar": {
         "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T28",
         "fpts": null,
         "ownership_pct": null
       }
@@ -20173,6 +22047,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Justin Lower": {
@@ -20193,6 +22072,11 @@
       },
       "Valspar": {
         "pos": "T55",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
         "fpts": null,
         "ownership_pct": null
       }
@@ -20217,6 +22101,11 @@
       },
       "Valspar": {
         "pos": "T30",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T56",
         "fpts": null,
         "ownership_pct": null
       }
@@ -20322,6 +22211,11 @@
         "pos": "T55",
         "fpts": 54.5,
         "ownership_pct": 24.1
+      },
+      "Houston Open": {
+        "pos": "2",
+        "fpts": 120.0,
+        "ownership_pct": 26.9
       }
     },
     "Rasmus Neergaard-Petersen": {
@@ -20344,6 +22238,11 @@
         "pos": "T55",
         "fpts": 56.0,
         "ownership_pct": 10.3
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 26.5,
+        "ownership_pct": 11.5
       }
     },
     "Brooks Koepka": {
@@ -20371,6 +22270,11 @@
         "pos": "T18",
         "fpts": 74.5,
         "ownership_pct": 34.5
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 29.0,
+        "ownership_pct": 38.5
       }
     },
     "Xander Schauffele": {
@@ -20442,6 +22346,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T14",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Marcus Byrd": {
@@ -20477,6 +22386,11 @@
         "ownership_pct": null
       },
       "Cognizant": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
@@ -20543,6 +22457,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T69",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Marco Penge": {
@@ -20575,6 +22494,11 @@
         "pos": "T4",
         "fpts": 91.0,
         "ownership_pct": 6.9
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 32.0,
+        "ownership_pct": 19.2
       }
     },
     "Mark Geddes": {
@@ -20641,6 +22565,11 @@
         "pos": "DNP",
         "fpts": 0.0,
         "ownership_pct": 3.3
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": 22.5,
+        "ownership_pct": 15.4
       }
     },
     "Thomas Avant": {
@@ -20697,6 +22626,11 @@
         "pos": "MC",
         "fpts": 26.5,
         "ownership_pct": 10.0
+      },
+      "Houston Open": {
+        "pos": "T28",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Rory McIlroy": {
@@ -20746,6 +22680,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Ben Silverman": {
@@ -20765,6 +22704,11 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T39",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Danny Willett": {
@@ -20775,6 +22719,11 @@
       },
       "Valspar": {
         "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      },
+      "Houston Open": {
+        "pos": "T56",
         "fpts": null,
         "ownership_pct": null
       }
@@ -20803,6 +22752,11 @@
         "pos": "MC",
         "fpts": 18.5,
         "ownership_pct": 3.2
+      },
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
       }
     },
     "Brendon Todd": {
@@ -20834,6 +22788,11 @@
         "pos": "T4",
         "fpts": 99.5,
         "ownership_pct": 6.9
+      },
+      "Houston Open": {
+        "pos": "T60",
+        "fpts": 54.0,
+        "ownership_pct": 11.5
       }
     },
     "Justin Thomas": {
@@ -20886,6 +22845,48 @@
         "pos": "MC",
         "fpts": null,
         "ownership_pct": null
+      }
+    },
+    "Bronson Burgoon": {
+      "Houston Open": {
+        "pos": "T10",
+        "fpts": 90.0,
+        "ownership_pct": 3.9
+      }
+    },
+    "Mason Howell (a)": {
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      }
+    },
+    "Cole Hammer": {
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      }
+    },
+    "Trey Mullinax": {
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      }
+    },
+    "Casey Russell": {
+      "Houston Open": {
+        "pos": "MC",
+        "fpts": null,
+        "ownership_pct": null
+      }
+    },
+    "Jordan L. Smith": {
+      "Houston Open": {
+        "pos": "DNP",
+        "fpts": 74.0,
+        "ownership_pct": 3.9
       }
     }
   }
