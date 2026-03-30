@@ -24296,6 +24296,223 @@ function togglePlayerDetail(playerName, row, container, startedSet) {
 }
 
 
+// ── BOUNCE BACK ───────────────────────────────────────────────────────────
+function renderBounceBack(manager) {
+  const noMgr = document.getElementById('bb-no-manager');
+  const dash  = document.getElementById('bb-dashboard');
+
+  if (!manager) {
+    noMgr.style.display = 'block';
+    dash.style.display  = 'none';
+    return;
+  }
+  noMgr.style.display = 'none';
+  dash.style.display  = 'block';
+
+  const order = DATA.tournament_order;
+  const pr    = DATA.player_results;
+
+  // Field toggle
+  const fieldToggle = document.getElementById('bb-field-toggle');
+  const fieldOn     = fieldToggle ? fieldToggle.checked : true;
+  const field       = new Set(DATA.upcoming_field || []);
+  const track = document.getElementById('bb-toggle-track');
+  const thumb = document.getElementById('bb-toggle-thumb');
+  const numEl = document.getElementById('bb-field-num');
+  if (track) track.style.background = fieldOn ? 'var(--green)' : '#ccc';
+  if (thumb) thumb.style.transform  = fieldOn ? 'translateX(18px)' : 'translateX(0)';
+  if (numEl) numEl.textContent = field.size;
+
+  // Build set of players this manager has ever rostered
+  const mgrWeeks  = DATA.manager_data[manager] || [];
+  const mgrRoster = new Set();
+  mgrWeeks.forEach(function(w) {
+    w.players.forEach(function(p) { mgrRoster.add(p.player); });
+  });
+
+  // Helper: numeric rank from position string (MC/WD/DNP → null)
+  function rankNum(pos) {
+    if (!pos || pos === 'MC' || pos === 'WD' || pos === 'DNP') return null;
+    const n = parseInt(String(pos).replace(/^T/, ''), 10);
+    return isNaN(n) ? null : n;
+  }
+
+  // Helper: season avg finish rank (numeric finishes only)
+  function seasonAvg(playerName) {
+    const res = pr[playerName] || {};
+    const ranks = [];
+    order.forEach(function(t) {
+      if (!res[t]) return;
+      const n = rankNum(res[t].pos);
+      if (n !== null) ranks.push(n);
+    });
+    return ranks.length ? ranks.reduce(function(a, b) { return a + b; }, 0) / ranks.length : null;
+  }
+
+  // Helper: pos tag HTML
+  function posTag(pos) {
+    if (!pos) return '<span class="player-tag tag-pos-dnp">—</span>';
+    var cls = pos === 'MC'  ? 'tag-pos-cut'
+            : pos === 'WD'  ? 'tag-pos-wd'
+            : pos === 'DNP' ? 'tag-pos-dnp'
+            : 'tag-pos';
+    return '<span class="player-tag ' + cls + '">' + pos + '</span>';
+  }
+
+  // Helper: fpts tag HTML
+  function fptsTag(fpts) {
+    return fpts != null
+      ? '<span class="player-tag tag-fpts">' + fpts + ' fpts</span>'
+      : '<span class="player-tag tag-pos-dnp">—</span>';
+  }
+
+  // Filter: must be on this manager's roster; optionally in this week's field
+  function inScope(playerName) {
+    if (!mgrRoster.has(playerName)) return false;
+    return !fieldOn || field.has(playerName);
+  }
+
+  const lastT = order[order.length - 1];
+  const prevT = order.length >= 2 ? order[order.length - 2] : null;
+  const last2 = order.length >= 2 ? [prevT, lastT] : [lastT];
+
+  // ── SECTION 1: Prime Bounce-Back Candidates ────────────────────────────
+  // Rule: last result MC / WD / T60+  AND  season avg < T40
+  var s1 = [];
+  Object.keys(pr).forEach(function(p) {
+    if (!inScope(p)) return;
+    var res = pr[p];
+    if (!res[lastT]) return;
+    var pos  = res[lastT].pos;
+    var fpts = res[lastT].fpts;
+    var own  = res[lastT].ownership_pct;
+    var badLast = (pos === 'MC' || pos === 'WD');
+    if (!badLast) {
+      var n = rankNum(pos);
+      if (n !== null && n >= 60) badLast = true;
+    }
+    if (!badLast) return;
+    var avg = seasonAvg(p);
+    if (avg === null || avg >= 40) return;
+    s1.push({ player: p, pos: pos, fpts: fpts, own: own, avg: avg });
+  });
+  s1.sort(function(a, b) { return a.avg - b.avg; });
+
+  var sec1 = document.getElementById('bb-section1');
+  if (!s1.length) {
+    sec1.innerHTML = '<div class="empty-state">No candidates found.</div>';
+  } else {
+    var rows1 = s1.map(function(x) {
+      return '<tr>'
+        + '<td><span class="bb-player-name">' + x.player + '</span></td>'
+        + '<td>' + posTag(x.pos) + '</td>'
+        + '<td>' + fptsTag(x.fpts) + '</td>'
+        + '<td class="bb-hide-mobile">' + (x.own != null ? x.own + '%' : '—') + '</td>'
+        + '<td>T' + Math.round(x.avg) + '</td>'
+        + '</tr>';
+    }).join('');
+    sec1.innerHTML = '<table class="bb-table"><thead><tr>'
+      + '<th>Player</th><th>Last Result</th><th>FPTS</th>'
+      + '<th class="bb-hide-mobile">Last Own%</th><th>Season Avg</th>'
+      + '</tr></thead><tbody>' + rows1 + '</tbody></table>';
+  }
+
+  // ── SECTION 2: Hot Streak ──────────────────────────────────────────────
+  // Rule: last 2 events both better than season avg (numeric finishes only)
+  var s2 = [];
+  if (prevT) {
+    Object.keys(pr).forEach(function(p) {
+      if (!inScope(p)) return;
+      var res = pr[p];
+      if (!res[lastT] || !res[prevT]) return;
+      var avg = seasonAvg(p);
+      if (avg === null) return;
+      var r1 = rankNum(res[prevT].pos);
+      var r2 = rankNum(res[lastT].pos);
+      if (r1 === null || r2 === null) return;
+      if (r1 >= avg || r2 >= avg) return;
+      s2.push({
+        player: p,
+        pos1: res[prevT].pos, fpts1: res[prevT].fpts,
+        pos2: res[lastT].pos, fpts2: res[lastT].fpts,
+        own:  res[lastT].ownership_pct,
+        avg:  avg
+      });
+    });
+    s2.sort(function(a, b) { return a.avg - b.avg; });
+  }
+
+  var sec2 = document.getElementById('bb-section2');
+  if (!s2.length) {
+    sec2.innerHTML = '<div class="empty-state">No players on a hot streak.</div>';
+  } else {
+    var rows2 = s2.map(function(x) {
+      var last2html = '<div class="bb-last2">'
+        + posTag(x.pos1) + '<span class="bb-arrow">→</span>' + posTag(x.pos2)
+        + '</div>';
+      return '<tr>'
+        + '<td><span class="bb-player-name">' + x.player + '</span></td>'
+        + '<td>' + last2html + '</td>'
+        + '<td>' + fptsTag(x.fpts2) + '</td>'
+        + '<td class="bb-hide-mobile">' + (x.own != null ? x.own + '%' : '—') + '</td>'
+        + '<td>T' + Math.round(x.avg) + '</td>'
+        + '</tr>';
+    }).join('');
+    sec2.innerHTML = '<table class="bb-table"><thead><tr>'
+      + '<th>Player</th><th>Last 2 Results</th><th>Last FPTS</th>'
+      + '<th class="bb-hide-mobile">Last Own%</th><th>Season Avg</th>'
+      + '</tr></thead><tbody>' + rows2 + '</tbody></table>';
+  }
+
+  // ── SECTION 3: Forgotten Men ───────────────────────────────────────────
+  // Rule: rostered this season, skipped last 2 events, season avg < T30
+  var s3 = [];
+  Object.keys(pr).forEach(function(p) {
+    if (!inScope(p)) return;
+    var res = pr[p];
+    var played = order.filter(function(t) {
+      return res[t] && res[t].pos !== 'DNP';
+    });
+    if (!played.length) return;
+    var playedRecent = last2.some(function(t) {
+      return res[t] && res[t].pos !== 'DNP';
+    });
+    if (playedRecent) return;
+    var avg = seasonAvg(p);
+    if (avg === null || avg >= 30) return;
+    var lp = played[played.length - 1];
+    s3.push({
+      player:    p,
+      lastTName: DATA.tournament_meta[lp] ? DATA.tournament_meta[lp].name : lp,
+      pos:       res[lp].pos,
+      fpts:      res[lp].fpts,
+      own:       res[lp].ownership_pct,
+      avg:       avg
+    });
+  });
+  s3.sort(function(a, b) { return a.avg - b.avg; });
+
+  var sec3 = document.getElementById('bb-section3');
+  if (!s3.length) {
+    sec3.innerHTML = '<div class="empty-state">No forgotten men found.</div>';
+  } else {
+    var rows3 = s3.map(function(x) {
+      return '<tr>'
+        + '<td><span class="bb-player-name">' + x.player + '</span></td>'
+        + '<td style="font-size:0.78rem;color:var(--muted);">' + x.lastTName + '</td>'
+        + '<td>' + posTag(x.pos) + '</td>'
+        + '<td>' + fptsTag(x.fpts) + '</td>'
+        + '<td class="bb-hide-mobile">' + (x.own != null ? x.own + '%' : '—') + '</td>'
+        + '<td>T' + Math.round(x.avg) + '</td>'
+        + '</tr>';
+    }).join('');
+    sec3.innerHTML = '<table class="bb-table"><thead><tr>'
+      + '<th>Player</th><th>Last Played</th><th>Result</th><th>FPTS</th>'
+      + '<th class="bb-hide-mobile">Own%</th><th>Season Avg</th>'
+      + '</tr></thead><tbody>' + rows3 + '</tbody></table>';
+  }
+}
+
 // ── BOOT ──────────────────────────────────────────────────────────────────
 loadData();
 </script>
